@@ -10,6 +10,13 @@ git init .
 git add $FILE
 ```
 ```sh
+git add * #all files except for hidden files
+```
+```sh
+git add . #all hidden files
+```
+
+```sh
 git commit -m "first commit"
 ```
 ```sh
